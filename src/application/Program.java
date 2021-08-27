@@ -21,7 +21,16 @@ public class Program extends Interface {
 		double peso = sc.nextDouble();
 		double imc = peso / (Math.pow(altura, 2));
 		System.out.printf("IMC: " + formatter.format(imc));
+		sc.nextLine();
+		
+		// Entre 18,5 e 24,9    Parabéns — você está em seu peso normal!
+		// Entre 25,0 e 29,9    Você está acima de seu peso (sobrepeso).
+		// Entre 30,0 e 34,9    Obesidade grau I.
+		// Entre 35,0    Obesidade grau II.
+		
+		
+	}
+	
 		
 	}
 
-}
